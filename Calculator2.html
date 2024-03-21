@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        
+        
+        h1{
+            text-align: center;
+            padding: 10px;
+            text-decoration: dotted;
+            
+        }
+
+        .container{
+             padding: 10px; 
+             width: 30%;
+             margin: auto;
+             background-color: burlywood;
+             text-align: center;
+             border-radius: 2px; /* Adding border radius */
+            
+             }
+        .button{
+            padding: 20px;
+            border: 4px solid black;
+            border-radius: 5cm;
+           font-size: 24px;
+           font-weight: bold;
+
+        }
+        .cal{
+            /* border: 4px solid black;   */
+            padding: 10px;
+            /* width: 300px; */
+            height: 10%;
+            align-items: center;
+            border: 4px solid black; /* Adding border */
+            border-radius: 5px; /* Adding border radius */
+            
+        }
+        .text{
+            padding:10px ;
+            width: 40%;
+            border: 4px solid black; /* Adding border */
+}
+      
+        
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="cal">
+        <div class="row">
+    <div class="container">
+      
+        <input class="text" type="text" id="calci"> <br><br>
+    <input class="button"  type="button" value="AC" onclick="calci.value = '' ">
+    <input class="button"  type="button" value="del" onclick="calci.value = '' ">
+    <input class="button"  type="button" value="%" onclick="calci.value += '%' ">
+    <input class="button"  type="button" value="/" onclick="calci.value += '/' "><br><br>
+</div></div>
+<div class="container">
+    <input class="button"  type="button" value="7" onclick="calci.value += '7' ">
+    <input class="button"  type="button" value="8" onclick="calci.value += '8' ">
+    <input class="button"  type="button" value="9" onclick="calci.value += '9' ">
+    <input class="button"  type="button" value="*" onclick="calci.value += '*' "><br><br>
+</div>
+<div class="container">
+    <input class="button"  type="button" value="4" onclick="calci.value += '4' ">
+    <input class="button"  type="button" value="5" onclick="calci.value += '5' ">
+    <input class="button"  type="button" value="6" onclick="calci.value += '6' ">
+    <input class="button"  type="button" value="-" onclick="calci.value += '-' "><br><br>
+</div>
+<div class="container">
+    <input class="button"  type="button" value="1" onclick="calci.value += '1' ">
+    <input class="button"  type="button" value="2" onclick="calci.value += '2' ">
+    <input class="button"  type="button" value="3" onclick="calci.value += '3' ">
+    <input class="button"  type="button" value="+" onclick="calci.value += '+' "><br><br>
+</div>
+<div class="container">
+    <input class="button"  type="button" value="0" onclick="calci.value += '0' ">
+    <input class="button"  type="button" value="00" onclick="calci.value += '00' ">
+    <input class="button"  type="button" value="." onclick="calci.value += '.' ">
+    <input class="button" type="button" value="=" onclick="calci.value = eval(calci.value) ">
+</div>
+
+</div>
+</div>
+</body>
+</html>

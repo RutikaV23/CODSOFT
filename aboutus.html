@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <style>
+            .w3-large{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+.menu1{
+    background-color:rgb(116,6,67);
+
+    text-align: center;
+}
+.menu1 ul{
+
+    display: inline-flex;
+    list-style: none;;
+    color: rgb(116,6,67);
+}
+.menu1 ul li{
+
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu1 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.sub_menu1 {
+    display: none;
+}
+
+.menu1 ul li:hover .sub_menu1 
+{   display: block;
+    position: absolute;
+    background: rgb(116,6,67);
+    margin-top: 15px;
+    margin-left:-15px; ;
+}
+.menu1 ul li:hover .sub_menu1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu1 ul li:hover .sub_menu1 ul li{
+   width: 150px;  
+   padding: 10px;
+  
+   border-bottom: 1px solid #fff;
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+.menu1 ul li:hover .sub_menu1 ul li :first-child {
+    border-top: 1px solid #fff;
+    }
+
+
+.right_drop:hover .sub_menu2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(116,6,67);
+}
+.sub_menu2{
+    display: none;
+}
+ 
+.center{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 50%;
+}
+            body{
+                background-color:#aa9696bb
+            }
+            
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: poppins;
+            }
+            #about-section {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 80px 12%;
+            }
+            .about-left img{
+                width: 420px;
+                height: auto;
+                transform: translateY(50px);
+            }
+            .about-right {
+                width: 54%;
+            }
+
+            .about-right ul li {
+                display: flex;
+                align-items: center;
+            }
+
+            .about-right h1 {
+                color: rgb(116,6,67);
+                font-size: 37px;
+                margin-bottom: 5px;
+            }
+
+            .about-right p {
+                color: #444;
+                line-height: 26px;
+                font-size: 15px;
+            }
+
+            .about-right .address {
+                margin: 25px 0;
+            }
+
+            .about-right .address ul li {
+                margin-bottom: 5px;
+            }
+
+            .address .address-logo {
+                margin-right: 15px;
+                color: rgb(116,6,67);
+            }
+
+            .address .saprater {
+                margin: 0 35px;
+            }
+
+            .about-right .expertise ul {
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .expertise h3 {
+                margin-bottom: 10px;
+            }
+
+            .expertise .expertise-logo {
+                font-size: 19px;
+                margin-right: 10px;
+                color: rgb(116,6,67);
+            }
+        </style>
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="menu1">
+        <ul>
+            
+            <li class="hower"><a href="index.html"><class="w3-large"><i class="fa fa-home"></i></a></li>
+            
+            <li><a href="banking2.html"> <i class='fa fa-user'></i> User</a>
+                <div class="sub_menu1">
+                    <ul>
+                      <li class="right_drop"><a href="http://127.0.0.1:5500/indexx.html#"></a><i class="fa fa-angle-right"></i>
+                        <div class="sub_menu2">
+                            <ul>
+                              <li><a href="http://127.0.0.1:5500/indexx.html#">Men</a></li>
+                              <li><a href="http://127.0.0.1:5500/indexx.html#">Login</a></li>
+                              <li><a href="http://127.0.0.1:5500/indexx.html#">About Us</a></li>
+                            </ul>
+                    
+                    </div></li>
+                      <li class="right_drop"><a href="http://127.0.0.1:5500/indexx.html#"></a>
+                        <div class="sub_menu2">
+                            <ul>
+                              <li><a href="http://127.0.0.1:5500/indexx.html#">12pcpa </a></li>
+                              <li><a href="http://127.0.0.1:5500/indexx.html#">14pcpa </a></li>
+                              <li><a href="http://127.0.0.1:5500/indexx.html#">10.5pcpa </a></li>
+                            </ul>
+                    
+                    
+                    </div></li>
+                      <li><a href="login.php">Login</a></li>
+                    </ul>
+            </div></li>
+    
+            <li><a href="http://127.0.0.1:5500/indexx.html#">Loan</a>
+                <div class="sub_menu1">
+                    <ul>
+                      <li><a href="http://127.0.0.1:5500/indexx.html#">business Loan</a></li>
+                      <li><a href="http://127.0.0.1:5500/indexx.html#">Car Loan</a></li>
+                      <li><a href="http://127.0.0.1:5500/indexx.html#">Home Loan</a></li>
+                    </ul></div></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="account.html">Accounts</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+        </ul>
+        </div>
+        <section id="about-section">
+            <!-- about left  -->
+            <div class="about-left">
+                <img src="bank_logo1.png" alt="About Img" height="1200px" width="1200px"/>
+            </div>
+
+            <!-- about right  -->
+            <div class="about-right">
+                <h4></h4>
+                <h1>About Us:</h1>
+                <p>At <i>Elite Bank</i>, we understand that all customers are different in unique ways, which is why, regardless of the size of your business or your aspirations, we treat every one as individual and special. This means offering you choices, not only in relation to our products and services but also in the way you interact with us. We understand the changes in your lifestyle, recognize these changes and support you with a high standard of professionalism and service.<br>
+
+                    As a premier bank, we have developed comprehensive range of customized products & services suitable for every kind of market, trade or perceived need - Business or Personal. They include, borrowing facilities, deposits, providing optimum returns on surplus funds or helping with overseas transactions.<br>
+                    
+                    We believe in total quality at all levels. We have deployed the most modern information technology to deliver products & services for your benefit with an aim to develop an effective long-term relationship. But most of all, Technology is matched to your expectations of service, for today & for the future.
+                </p>
+                <div class="address">
+                    <ul>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <p>Address</p>
+                            <span class="saprater">:</span>
+                            <p>Andheri West,Mumbai,Maharshtra,India</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                            <p>Phone No</p>
+                            <span class="saprater">:</span>
+                            <p>+91 987-654-4321</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="far fa-envelope"></i>
+                            </span>
+                            <p>Email ID</p>
+                            <span class="saprater">:</span>
+                            <p>EliteBank@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="Sections"> -->
+                    <!-- <h3>Clothing</h3>
+                    <ul>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                            <p>Sports</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-css3-alt"></i>
+                            </span>
+                            <p>Grocery</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-node-js"></i>
+                            </span>
+                            <p></p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <i class="fab fa-react"></i>
+                            </span>
+                            <p>React Js</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
+    </body>
+
+</html>

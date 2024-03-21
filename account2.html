@@ -1,0 +1,126 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+</head>
+<style>
+.right{
+    display:flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    border-color: black;
+    box-shadow: 5px 6px ;
+   border:1px solid black;
+}
+.head1{
+    display: flex;
+        /* flex-wrap: wrap; */
+        /* border-radius: cm; */
+        /* border-color: blanchedalmond; */
+        border: 1px solid #c3c3c3;
+        width: 350px;
+        box-shadow: 5px 6px ;
+        /* margin: 30%; */
+        margin-left: 20%;
+}
+</style>
+<body>
+    <div class="head1"><h2 >Basic Saving </h2></div>
+
+    <div class="first">
+        <!-- <h2 >Basic Saving </h2> -->
+          <!-- <ul> 
+           <li>Interest Bearing</li>
+           <li> Free Online Banking</li>
+           <li>Free Online Statements</li>
+           <li>Free Mobile Banking</li>
+          </ul>
+    </div>    
+    
+    <div class="head"><h2>Certificate Of Deposit</h2></div>
+    <div class="second">
+    <ul>
+        <li>Flexible Terms Between 1 and 60 Months</li>
+        <li>Competitive Rates</li>
+        <li>Automatically Renew At Maturity</li>
+        <li>Great Savings Tool Bearing</li>
+    </ul>
+</div>
+<div class="head"><h2>Market</h2></div>
+   <div class="Third">
+    <ul>
+        <li>Interest Bearing</li>
+        <li>Free Online Banking</li>
+        <li>Free Bill Pay</li>
+        <li>Free Mobile Banking </li>
+        <li>Free Online Statements</li>
+    </ul>
+    </div>
+    <div class="right">
+    <div><h2>Health Saving Account</h2></div>
+    <div class="fourth"> 
+    <ul>
+        <li>Interest Bearing</li> 
+        <li>Free Online Banking</li>
+        <li>Free Bill Pay</li>
+        <li>Free Online Statements</li>
+        <li>Free Mobile Banking Bearing</li>
+    </ul>
+    </div>
+</div>
+<div class="rough">
+    <div><h2>Money Market Tiered</h2></div>
+    <div class="fourth"> 
+    <ul>
+        <li>Interest Bearing</li> 
+        <li>Tiered Interest Paid</li>
+        <li>Free Online Banking and Bill Pay</li>
+        <li>Free Online Statements</li>
+        <li>Free Mobile Banking </li>
+    </ul>
+    </div>
+</div>
+
+</body>
+</html> --> -->
+
+<html>
+<style>
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a a a a b b b b"
+      "a a a a b b b b"
+      "c c c c d d d d"
+      "c c c c d d d d";
+  }
+  .item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+    align-self: start;
+  }
+  .item3 {
+    grid-area: c;
+    align-self: end;
+  }
+  .item4 {
+    grid-area: d;
+    align-self: center;
+  }
+</style>
+<body>
+<div class="wrapper">
+    <div class="item1">Item 1</div>
+    <div class="item2">Item 2</div>
+    <div class="item3">Item 3</div>
+    <div class="item4">Item 4</div>
+  </div>
+</body>
+  </html>
